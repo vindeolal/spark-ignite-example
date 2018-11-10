@@ -1,0 +1,9 @@
+Apache Ignite memory-centric platform is based on the durable memory architecture that allows storing and processing data and indexes
+both in memory and on disk when the Ignite Native Persistence feature is enabled. The durable memory architecture helps achieve
+in-memory performance with the durability of disk using all the available resources of the cluster.
+Ignite's durable memory operates in a way similar to the virtual memory of operating systems, such as Linux. However, one significant
+difference between these two types of architecture is that the durable memory, whenever persistence is enabled, will always treat the
+disk as the superset of the data, capable of surviving crashes and restarts, while the traditional virtual memory uses the disk only as
+a swap extension, which gets erased once the process stops.
+Ignite Persistence is the most flexible, scalable, and convenient way of persisting data in Ignite. It is widely used in scenarios where
+applications need a distributed memory-centric database.
